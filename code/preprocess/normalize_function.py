@@ -1066,7 +1066,7 @@ def normalize(data):
     data = re.sub(r"\bshah?m(i|e*)l\b","shamil",str(data))
     data = re.sub(r"\bwab(a|i)st(e|a)+gi\b","wabistegi",str(data))
     data = re.sub(r"\bj(o|u)+d(a|h)+gana\b","judagana",str(data))
- 	data = re.sub(r"\bbas(e|i)+rat\b","baseerat",str(data))
+    data = re.sub(r"\bbas(e|i)+rat\b","baseerat",str(data))
     data = re.sub(r"\bt(a|u)?j(a)*weez\b","tajaweez",str(data))
     data = re.sub(r"\bm(o|u|a)+(k|q)a*m\b","mukaam",str(data))
     data = re.sub(r"\bd(a|e)?rja*t\b","darjat",str(data))
